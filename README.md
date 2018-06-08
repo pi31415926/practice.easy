@@ -61,7 +61,7 @@ It is recommended you complete the classes in the order specified above:
 
 ### Submission Requirements
 
-1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Easy Practice](https://classroom.github.com/a/lCzzJRge)
+1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Easy Practice](https://classroom.github.com/a/92nehmK0)
 2. For full credit, make sure to follow all [Style Guidelines](https://github.com/CS601-F18/notes/blob/master/admin/style.md). Points will be deducted for each violation.
 
 ### Grading Rubric
