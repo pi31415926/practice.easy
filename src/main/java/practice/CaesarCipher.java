@@ -23,15 +23,18 @@ public class CaesarCipher {
 	 * @return
 	 */
 
-	int i = 0;
+
 	public String encrypt(String message, int shift) {
 		//REPLACE WITH YOUR CODE
-		i = 9;
 		return null;
 	}
 	
 	
 	public static void main(String[] args) {
+		int i = 0;
+		int j;
+		i = 99;
+		System.out.println(i);
 	}
 	
 }
