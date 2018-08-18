@@ -22,9 +22,11 @@ public class CaesarCipher {
 	 * @param shift
 	 * @return
 	 */
+
 	int i = 0;
 	public String encrypt(String message, int shift) {
 		//REPLACE WITH YOUR CODE
+		i = 9;
 		return null;
 	}
 	
