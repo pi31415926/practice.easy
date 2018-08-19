@@ -25,16 +25,26 @@ public class CaesarCipher {
 
 
 	public String encrypt(String message, int shift) {
-		//REPLACE WITH YOUR CODE
-		return null;
+        if (shift > 26){
+            return  null;
+        }
+	    String result = "";
+		for(int i = 0; i < message.length(); i++){
+            if (message.charAt(i) >= 'a' && message.charAt(i) <= 'z'){
+                result += (char)('a' + (message.charAt(i) - 'a' + shift)%26);
+            }else if (message.charAt(i) >= 'A' && message.charAt(i) <= 'Z'){
+                result += (char)('A' + (message.charAt(i) - 'A' + shift)%26);
+            }else{
+                return  null;
+            }
+
+        }
+		return result;
 	}
 	
 	
 	public static void main(String[] args) {
-		int i = 0;
-		int j;
-		i = 99;
-		System.out.println(i);
+
 	}
 	
 }

@@ -15,9 +15,9 @@ public class SayHello {
 	 * @param name
 	 * @return
 	 */
+
 	public String sayHello(String name) {
-		//REPLACE WITH YOUR CODE
-		return null;
+		return "Hello, " + name + "!";
 	}
 	
 	

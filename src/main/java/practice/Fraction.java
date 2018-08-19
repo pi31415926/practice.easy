@@ -7,13 +7,14 @@ package practice;
  */
 public class Fraction {
 
-	//REPLACE WITH YOUR CODE
-	
+	int numerator, denominator;
 	/**
 	 * Constructor
 	 */
 	public Fraction(int numerator, int denominator) {
-		//REPLACE WITH YOUR CODE
+		this.numerator = numerator;
+		this.denominator = denominator;
+
 	}
 	
 	/**
@@ -21,8 +22,8 @@ public class Fraction {
 	 * @return
 	 */
 	public int getNumerator() {
-		//REPLACE WITH YOUR CODE
-		return 0;
+
+		return this.numerator;
 	}
 	
 	/**
@@ -30,8 +31,8 @@ public class Fraction {
 	 * @return
 	 */
 	public int getDenominator() {
-		//REPLACE WITH YOUR CODE
-		return 0;
+
+		return this.denominator;
 	}
 	
 	/**
@@ -40,8 +41,7 @@ public class Fraction {
 	 * @return
 	 */
 	public double getDoubleValue() {
-		//REPLACE WITH YOUR CODE
-		return 0;
+		return (this.numerator/1.0)/this.denominator;
 	}
 
 	/**
@@ -51,8 +51,8 @@ public class Fraction {
 	 * Examples: 1/3 or 9/2
 	 */
 	public String toString() {
-		//REPLACE WITH YOUR CODE
-		return null;
+
+		return this.numerator + "/" + this.denominator;
 	}
 	
 }
